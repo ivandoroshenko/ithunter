@@ -1,0 +1,46 @@
+/* Defolt setings */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: $baseFont;  // Шрифт задавать в файле _variables.scss
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+// Центрирующий контейнер под медиа запросы параметры менять в mixin
+.wrap {
+    max-width: 1170px;
+    padding: 0 30px;
+    margin: 0 auto;
+    position: relative;
+} 
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+// delete margin end padding p end h:
+
+h1, h2, h3, h4, h5, h6, p {   
+    margin: 0;
+    padding: 0;
+} 

@@ -1,0 +1,14 @@
+/*=====  FONTS  ======*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&subset=cyrillic');
+
+/*=====  Normalize  ======*/
+@import "../libs/normalize.css";
+
+/*=====  CUSTOME STYLE  ======*/
+@import "adjustment/_variables";
+@import "adjustment/_mixin";
+@import "adjustment/_adjustment";
+
+/*=====  PARTIALS  ======*/
+@import "partials/_header";
+@import "partials/_footer";
